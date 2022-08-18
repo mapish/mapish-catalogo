@@ -66,6 +66,18 @@
             }
         ]
     },
+	{
+        "title": "Café para pasar",
+        "image": "./assets/images/products/cafe-pasado.png",
+        "subproducts": [],
+        "details": [{
+                "description": "Café para pasar 100% puro"
+            },
+            {
+                "description": "Cantidad aprox. 200ml"
+            }
+        ]
+    },
     {
         "title": "Chocolate de taza rectangular",
         "image": "./assets/images/products/chocolate-rectangular.png",
@@ -253,7 +265,7 @@
         "details": [{
             "description": "100% pura"
         }, {
-            "description": "Peso aprox. 750ml"
+            "description": "Cantidad aprox. 750ml"
         }],
         "subproducts": []
     }, {
