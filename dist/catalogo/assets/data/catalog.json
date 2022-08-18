@@ -1,0 +1,267 @@
+[{
+        "title": "Granos de Cacao",
+        "image": "./assets/images/products/cacao.png",
+        "subproducts": [],
+        "details": [{
+                "description": "Cacao en grano seco"
+            },
+            {
+                "description": "Variedad: Criollo o nativo, forastero (hibrido)"
+            },
+            {
+                "description": "Nomenclatura: IFS-95, SSN-51"
+            },
+            {
+                "description": "Proceso de fermentación: 7 días"
+            },
+            {
+                "description": "Humedad: 8.9%"
+            }
+        ]
+    },
+    {
+        "title": "Granos de Café",
+        "image": "./assets/images/products/cafe.png",
+        "subproducts": [],
+        "details": [{
+                "description": "Café orgánico"
+            },
+            {
+                "description": "Café tostado"
+            },
+            {
+                "description": "Café orgánico seco"
+            }
+        ]
+    },
+    {
+        "title": "Café orgánico para filtrar",
+        "image": "./assets/images/products/cafe-envasado.png",
+        "subproducts": [{
+            "title": "Café orgánico para filtrar pequeño",
+            "details": [{
+                "description": "Peso aprox. 100g"
+            }]
+        }, {
+            "title": "Café orgánico para filtrar semi-mediano",
+            "details": [{
+                "description": "Peso aprox. 250g"
+            }]
+        }, {
+            "title": "Café orgánico para filtrar mediano",
+            "details": [{
+                "description": "Peso aprox. 500g"
+            }]
+        }, {
+            "title": "Café orgánico para filtrar grade",
+            "details": [{
+                "description": "Peso aprox. 1kg"
+            }]
+        }],
+        "details": [{
+                "description": "Café orgánico 100% puro"
+            },
+            {
+                "description": "Diferente tipos de presentaciones y stickers acorde a la campaña"
+            }
+        ]
+    },
+    {
+        "title": "Chocolate de taza rectangular",
+        "image": "./assets/images/products/chocolate-rectangular.png",
+        "subproducts": [],
+        "details": [{
+                "description": "Peso aprox. 160g"
+            },
+            {
+                "description": "Rendimiento para 25 tazas"
+            },
+            {
+                "description": "100% de puro cacao"
+            },
+            {
+                "description": "Variedad de modelos de stickers acorde a la campaña"
+            }
+        ]
+    },
+    {
+        "title": "Chocolate de taza circular",
+        "image": "./assets/images/products/chocolate-circular.png",
+        "details": [{
+                "description": "100% de puro cacao"
+            },
+            {
+                "description": "Variedad de modelos de stickers acorde a la campaña"
+            }
+        ],
+        "subproducts": [{
+                "title": "Chocolate de taza circular pequeño",
+                "details": [{
+                        "description": "Peso aprox. 50g"
+                    },
+                    {
+                        "description": "Rendimiento para 20 tazas"
+                    }
+                ]
+            }, {
+                "title": "Chocolate de taza circular semi-mediano",
+                "details": [{
+                        "description": "Peso aprox. 160g"
+                    },
+                    {
+                        "description": "Rendimiento para 40 tazas"
+                    }
+                ]
+            },
+            {
+                "title": "Chocolate de taza circular mediano",
+                "details": [{
+                        "description": "Peso aprox. 200g"
+                    },
+                    {
+                        "description": "Rendimiento para 70 tazas"
+                    }
+                ]
+            },
+            {
+                "title": "Chocolate de taza circular grande",
+                "details": [{
+                        "description": "Peso aprox. 460g"
+                    },
+                    {
+                        "description": "Rendimiento para 100 tazas"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Licores de crema y vinos",
+        "image": "./assets/images/products/licores.png",
+        "details": [{
+            "description": "Hecho con frutas oriundas de Cajamarca y de la ribera del marañon"
+        }, {
+            "description": "Variedad de modelos de stickers acorde a la campaña"
+        }, {
+            "description": "Contenido de 500ml"
+        }],
+        "subproducts": [{
+            "title": "Licor de crema",
+            "details": [{
+                    "description": "Chocolate, Café, Lúcuma, Chirimoya, Aguaymanto"
+                },
+                {
+                    "description": "Puede contener los licores Vodka o Pisco"
+                }
+            ]
+        }, {
+            "title": "Vino",
+            "details": [{
+                "description": "Sauco, Chirimoya, Aguaymanto"
+            }]
+        }]
+    },
+    {
+        "title": "Mermeladas y jalea de frutas",
+        "image": "./assets/images/products/mermelada-jalea.png",
+        "details": [{
+            "description": "Frutos de aguaymanto, arándano, naranja, sauco, piña y otros"
+        }, {
+            "description": "Peso aprox. 250g"
+        }],
+        "subproducts": []
+    },
+    {
+        "title": "Mantequilla",
+        "image": "./assets/images/products/mantequilla.png",
+        "details": [{
+            "description": "Realizado con 100% leche"
+        }, {
+            "description": "Peso aprox. 200g"
+        }],
+        "subproducts": []
+    },
+    {
+        "title": "Manjar blanco",
+        "image": "./assets/images/products/manjar-blanco.png",
+        "details": [{
+            "description": "Realizado con 100% leche"
+        }, {
+            "description": "Disponible manjar frutado de sauco, mora, lúcuma, fresa, coco entre otros"
+        }],
+        "subproducts": [{
+            "title": "Pequeño",
+            "details": [{
+                "description": "Peso aprox. 200g"
+            }]
+        }, {
+            "title": "Mediano",
+            "details": [{
+                "description": "Peso aprox. 500g"
+            }]
+        }, {
+            "title": "Grande",
+            "details": [{
+                "description": "Peso aprox. 1kg"
+            }]
+        }, {
+            "title": "Balde",
+            "details": [{
+                "description": "Peso aprox. 20kg"
+            }]
+        }]
+    },
+    {
+        "title": "Queso tipo suizo y mantecoso",
+        "image": "./assets/images/products/queso.png",
+        "details": [{
+            "description": "Realizado con 100% leche"
+        }],
+        "subproducts": [{
+            "title": "Queso suizo mediano",
+            "details": [{
+                "description": "Peso aprox. 500g"
+            }]
+        }, {
+            "title": "Queso suizo grande",
+            "details": [{
+                "description": "Peso aprox. 1kg"
+            }]
+        }, {
+            "title": "Queso mantecoso mediano",
+            "details": [{
+                "description": "Peso aprox. 500g"
+            }]
+        }, {
+            "title": "Queso mantecoso grande",
+            "details": [{
+                "description": "Peso aprox. 1kg"
+            }]
+        }]
+    }, {
+        "title": "Miel de abeja",
+        "image": "./assets/images/products/miel.png",
+        "details": [{
+            "description": "100% pura"
+        }, {
+            "description": "Peso aprox. 250g"
+        }],
+        "subproducts": []
+    }, {
+        "title": "Miel de abeja en botella",
+        "image": "./assets/images/products/miel-botella.png",
+        "details": [{
+            "description": "100% pura"
+        }, {
+            "description": "Peso aprox. 750ml"
+        }],
+        "subproducts": []
+    }, {
+        "title": "Natilla",
+        "image": "./assets/images/products/natilla.png",
+        "details": [{
+            "description": "Peso aprox. 250g"
+        }],
+        "subproducts": []
+    }
+]

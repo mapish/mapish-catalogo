@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    padding: 2.5rem 5.625rem;
+    z-index: 100000;
+
+    &.sticky {
+        padding: 0.3125rem 5.625rem;
+        background: #fff;
+
+        .logo, ul li a {
+            color: #000;
+        }
+    }
+
+    .logo {
+        position: relative;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.025rem;
+        transition: .6s
+    }
+
+    ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            position: relative;
+            list-style: none;
+
+            a {
+                position: relative;
+                margin: 0 15px;
+                text-decoration: none;
+                color: #fff;
+                letter-spacing: 2px;
+                font-weight: 500;
+                transition: .6s
+            }
+        }
+    }
+}

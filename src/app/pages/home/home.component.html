@@ -1,0 +1,65 @@
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="overlay-image" style="background-image:url(./assets/images/banner-1.jpeg);"></div>
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Example headline.</h1>
+                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url(./assets/images/slide-2.jpg);"></div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url(./assets/images/slide-3.jpg);"></div>
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<br/>
+<br/>
+<div class="container">
+    <div *ngFor="let product of products; let index = index" class="default-inner-grid-content d-flex flex-column align-items-center" [ngClass]="{'flex-lg-row': index % 2 === 0, 'flex-lg-row-reverse': index % 2 !== 0}">
+        <div class="image text-start mr-70">
+            <img class="img-fluid" src="{{product.image}}" alt="">
+        </div>
+        <div class="content">
+            <h3 class="sub-title">{{ product.title }}</h3>
+            <ul>
+                <li *ngFor="let detail of product.details">{{ detail.description }}</li>
+            </ul>
+            <div *ngFor="let subProduct of product.subproducts" class="ms-3">
+                <h5>{{ subProduct.title }}</h5>
+                <ul>
+                    <li *ngFor="let detailSubProduct of subProduct.details">{{ detailSubProduct.description }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
