@@ -7,13 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  informationProducts: any = []
   products: any = []
 
   constructor() { }
 
   ngOnInit(): void {
     const catalogs: any = require("../../../assets/data/catalog.json");
-    this.products = catalogs
+    this.products = catalogs;
+    const informationProducts: any = require("../../../assets/data/information-products.json");
+    this.informationProducts = informationProducts;
   }
 
 }

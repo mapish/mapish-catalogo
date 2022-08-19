@@ -260,15 +260,6 @@
         }],
         "subproducts": []
     }, {
-        "title": "Miel de abeja en botella",
-        "image": "./assets/images/products/miel-botella.png",
-        "details": [{
-            "description": "100% pura"
-        }, {
-            "description": "Cantidad aprox. 750ml"
-        }],
-        "subproducts": []
-    }, {
         "title": "Natilla",
         "image": "./assets/images/products/natilla.png",
         "details": [{
