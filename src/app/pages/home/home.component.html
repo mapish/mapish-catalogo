@@ -1,16 +1,19 @@
 <div class="container">
     <div class="row text-center">
         <div class="col-md-12">
-            <h1 style="color: red">¿Quiénes somos?</h1>
-            <p>Somos una empresa agro-industrial, dedicada a la industrialización de alimentos, se creo con la finalidad de cubrir las necesidades del mercado cajamarquino, con productos industriales de calidad como es el "Chocolate de taza alto marañon - Celendín", fino de aroma; es de nuestra responsabilidad el cuidado riguroso de los parámetros de calidad al momento de la fabricación con el fin de ofrecer un producto inocuo.</p>
+            <h1 style="color: red">¿Quiénes Somos?</h1>
+            <p>Somos una Empresa Agro-Industrial, dedicada a la industrialización de alimentos, se creo con la finalidad de cubrir las necesidades del mercado cajamarquino, con productos industriales de calidad como es el "Chocolate de Taza Alto Marañon - Celendín", fino de aroma; es de nuestra responsabilidad el cuidado riguroso de los parámetros de calidad al momento de la fabricación con el fin de ofrecer un producto inocuo.</p>
         </div>
     </div>
     <div *ngFor="let product of informationProducts; let index = index" class="default-inner-grid-content d-flex flex-column align-items-center" [ngClass]="{'flex-lg-row': index % 2 === 0, 'flex-lg-row-reverse': index % 2 !== 0}">
+        <div class="content d-md-none text-center">
+            <h3 class="sub-title">{{ product.title }}</h3>
+        </div>
         <div class="image text-start mr-70">
             <img class="img-fluid" src="{{product.image}}" alt="">
         </div>
         <div class="content">
-            <h3 class="sub-title">{{ product.title }}</h3>
+            <h3 class="sub-title d-none d-sm-block">{{ product.title }}</h3>
             <ul>
                 <li *ngFor="let detail of product.details">{{ detail.description }}</li>
             </ul>
@@ -23,14 +26,17 @@
         </div>
     </div>
     <div class="row text-center m-5">
-        <div class="col-md-12"><h2 style="color: red;">Catálogo de productos </h2></div>
+        <div class="col-md-12"><h2 style="color: red;">Catálogo de Productos </h2></div>
     </div>
     <div *ngFor="let product of products; let index = index" class="default-inner-grid-content d-flex flex-column align-items-center" [ngClass]="{'flex-lg-row': index % 2 === 0, 'flex-lg-row-reverse': index % 2 !== 0}">
-        <div class="image text-start mr-70">
+        <div class="content d-md-none text-center">
+            <h3 class="sub-title">{{ product.title }}</h3>
+        </div>
+        <div class="image text-start mr-70 text-center">
             <img class="img-fluid" src="{{product.image}}" alt="">
         </div>
         <div class="content">
-            <h3 class="sub-title">{{ product.title }}</h3>
+            <h3 class="sub-title d-none d-sm-block" style="font-weight: 800 !important;">{{ product.title }}</h3>
             <ul>
                 <li *ngFor="let detail of product.details">{{ detail.description }}</li>
             </ul>
