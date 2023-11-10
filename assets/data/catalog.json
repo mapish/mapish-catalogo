@@ -1,44 +1,5 @@
 [
     {
-        "title": "Café Orgánico para Filtrar",
-        "image": "./assets/images/products/cafe-envasado.png",
-        "subproducts": [{
-            "title": "Café orgánico para filtrar",
-            "details": [{
-                "description": "Peso aprox. 200g"
-            }]
-        }, {
-            "title": "Café orgánico para filtrar",
-            "details": [{
-                "description": "Peso aprox. 500g"
-            }]
-        }, {
-            "title": "Café orgánico para filtrar",
-            "details": [{
-                "description": "Peso aprox. 1kg"
-            }]
-        }],
-        "details": [{
-                "description": "Café orgánico 100% puro"
-            },
-            {
-                "description": "Diferente tipos de presentaciones y stickers acorde a la campaña"
-            }
-        ]
-    },
-	{
-        "title": "Concentrado o Esencia de Café",
-        "image": "./assets/images/products/cafe-pasado.png",
-        "subproducts": [],
-        "details": [{
-                "description": "Café para pasar 100% puro"
-            },
-            {
-                "description": "Peso aprox. 250 ml. - 500 ml."
-            }
-        ]
-    },
-    {
         "title": "Chocolate de Taza Rectangular",
         "image": "./assets/images/products/chocolate-rectangular.png",
         "subproducts": [],
@@ -105,6 +66,33 @@
                         "description": "Rendimiento para 100 tazas"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "title": "Café Orgánico para Filtrar",
+        "image": "./assets/images/products/cafe-envasado.png",
+        "subproducts": [{
+            "title": "Café orgánico para filtrar",
+            "details": [{
+                "description": "Peso aprox. 200g"
+            }]
+        }, {
+            "title": "Café orgánico para filtrar",
+            "details": [{
+                "description": "Peso aprox. 500g"
+            }]
+        }, {
+            "title": "Café orgánico para filtrar",
+            "details": [{
+                "description": "Peso aprox. 1kg"
+            }]
+        }],
+        "details": [{
+                "description": "Café orgánico 100% puro"
+            },
+            {
+                "description": "Diferente tipos de presentaciones y stickers acorde a la campaña"
             }
         ]
     },
