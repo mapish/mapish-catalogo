@@ -165,14 +165,6 @@
         "subproducts": []
     },
     {
-        "title": "Mermela de lucuma",
-        "image": "./assets/images/products/natilla.png",
-        "details": [{
-            "description": "Peso aprox. 170 g."
-        }],
-        "subproducts": []
-    },
-    {
         "title": "Queso Tipo Suizo y Mantecoso",
         "image": "./assets/images/products/queso.png",
         "details": [{
