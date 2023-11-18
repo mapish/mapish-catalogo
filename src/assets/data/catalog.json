@@ -154,21 +154,13 @@
     },
     {
         "title": "Manjar Frutado",
-        "image": "./assets/images/products/manjar-frutado.png",
+        "image": "./assets/images/products/crema-lucuma.png",
         "details": [{
             "description": "100% leche pura"
         }, {
             "description": "Peso aprox. 180 g."
         }, {
             "description": "Manjares de sauco, mora, fresa, lúcuma y otros "
-        }],
-        "subproducts": []
-    },
-    {
-        "title": "Natilla",
-        "image": "./assets/images/products/natilla.png",
-        "details": [{
-            "description": "Peso aprox. 180 g."
         }],
         "subproducts": []
     },
