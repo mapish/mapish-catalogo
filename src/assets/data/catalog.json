@@ -97,6 +97,33 @@
         ]
     },
     {
+        "title": "Café para pasar",
+        "image": "./assets/images/products/cafe-pasado.png",
+        "subproducts": [{
+            "title": "Café para pasar",
+            "details": [{
+                "description": "250 ml"
+            }]
+        }, {
+            "title": "Café para pasar",
+            "details": [{
+                "description": "500 ml"
+            }]
+        }, {
+            "title": "Café para pasar",
+            "details": [{
+                "description": "1 litro"
+            }]
+        }],
+        "details": [{
+            "description": "Esencia de café"
+        },
+        {
+            "description": "Envase de vidrio"
+        }
+    ]
+    },
+    {
         "title": "Cremas y Vinos",
         "image": "./assets/images/products/licores.png",
         "details": [{
